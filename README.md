@@ -53,8 +53,35 @@ Unfortunately, we could not upload the raw sequencing results since they are too
 
 
 ### Results
-there will be something
-Additionally, we enclose the LFC-ranked tables for pair-wise DEA (\*.xlsx). 
+Apart from high duplication and adapter contamination FASTQC and MultiQC reports showed rather good quality.
+![](MultiQC1.png)
+
+However, the number of reads for sample №93 was abnormally small, so we desided to delete it from further analysis.
+![](MultiQC2.png)
+
+Alignment data also supports this decision, as almost nothing can be aligned on №93. This information is saved in the table 'Basic_Statistics.xlsx'. We also performed alignment on other types of RNA to see how the trimming and rRNA filtering affected the distribution:
+![](Alignment1.png)
+mRNA and ncRNA are the most abundant in our samples and the amount of tRNA-associated data is surprisingly less than that.
+
+Then, we finally performed differential expression analysis (DEA). The example of an output table is shown below.
+![](DEGs.png)
+This is the table of top and bottom 10 of differentially expressed genes (DEGs). The histone-encoding genes show the biggest difference in the expression. Additionally, we enclose the LFC-ranked tables for pair-wise DEA (\*ordered_ranking.xlsx). 
+
+Overall, the amount of up- and down-regulated genes among the comparison groups are included in this table:
+![](Results_table.png)
+
+And the MA-plots for these groups:
+![](MA-plots.png)
+
+Finally, we visualized the LFC distribution on X- and autosomes to see if there is any difference
+
+
+for males:
+![](Density_ms.png)
+
+
+for females:
+![](Density_fs.png)
 
 
 ### Conclusion
