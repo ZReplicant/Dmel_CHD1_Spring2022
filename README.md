@@ -29,8 +29,12 @@ The **objectives**:
 
 ### Initial data
 There were **4** initial types of samples that were derived from *Drosophila melanogaster* larvae:
+
+
 🪰male wt | 🪰female wt
 🪰male mutant | 🪰female mutant
+
+
 The lab assistant made **2** biological replicates for each group, which yields **8** samples.
 
 These samples were rRNA depleted and sequenced on MGISEQ platform. So, in the beginning we had **16** files, forward and reverse .fq.gz type for each sample.
@@ -45,7 +49,7 @@ The exact actions along with our code can be accessed via the following files:
 - DEA_commands.R
 
 [Click on this text to get the scripts and reference files](https://drive.google.com/drive/folders/1NPE-o1iZVF-2sharSFEwvQT3fKwZ4Qb8?usp=sharing).
-Unfortunately, we could not upload the sequencing results since they are too big.
+Unfortunately, we could not upload the raw sequencing results since they are too big.
 
 
 ### Results
