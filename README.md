@@ -8,6 +8,7 @@ Supervisor, affiliation:
 
 - Alexander Konev, PNPI
 
+
 ### Introduction
 *Drosophila melanogaster* is widely used model object in genetics. In humans and fruit flies, females and males have different sets of sex chromosomes – XX and XY. This causes gene dosage differences that must be compensated for by adjusting the expression of most genes located on the X-chromosome, the process known as dosage compensation (DC). In Drosophila DC is achieved by 2-fold upregulation of expression of most X-chromosome genes in males. Dosage compensation is widely used as a model for studies of basic principles of chromatin-based regulation of genetic activity because it requires the specific targeting of regulatory factors to particular chromosome and the coordinate regulation of transcription of many genes. Surprisingly, a little is known about the role of chromatin remodeling factors in the processes of dosage compensation. 
 
@@ -79,6 +80,8 @@ Overall, the amount of up- and down-regulated genes among the comparison groups 
 
 
 And the MA-plots for these groups:
+
+
 ![](MA-plots.png)
 
 
@@ -93,15 +96,23 @@ for females:
 ![](Density_fs.png)
 
 
+The results above indicate that CHD1 mutation in *Drosophila melanogaster* males may result in the increase of overall gene expression levels. It also improves gene expression specifically on X-chromosomes in comparison to autosomes. Still, the results may be not fully correct since we had only one male wt sample, it may also be the reason why DESeq2 trims the genes so aggresively.
+
+
+Functional analysis of the DEGs from the comparison of mutants and wild type organisms shows that the most prominent divergence accounts for the H1/H5 family and genes and microtubule plus-end binding activity genes.
+
+
 ### Conclusion
 All in all, during this project we tried to perform a full analysis of RNA-seq data from quality control to DEA.
 The difference between gene expression in comparison groups is subtle, yet we can see that CHD1 mutants show a shift to the right (more genes are expressed).
 We also characterized genes that may be affected by a CHD1 mutation.
 
+
 ### Further plans
 - The functional analysis of DEGs was manual. We would like to perform it with specific gene ontology tools
 - We plan to align the RNA-seq data to genome and see whether there are patterns according to the structural elements of this reference.
 - We may also try another R package for differential expression analysis to check the legitimacy of our results
+
 
 ### Links and literature
 - [Flybase.org](http://flybase.org/)
