@@ -31,8 +31,7 @@ The **objectives**:
 There were **4** initial types of samples that were derived from *Drosophila melanogaster* larvae:
 
 
-🪰male wt | 🪰female wt
-🪰male mutant | 🪰female mutant
+🪰male wt | 🪰female wt | 🪰male mutant | 🪰female mutant
 
 
 The lab assistant made **2** biological replicates for each group, which yields **8** samples.
