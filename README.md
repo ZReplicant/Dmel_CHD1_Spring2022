@@ -47,6 +47,7 @@ Our pipeline is described on a picture below ⬇️
 The exact actions along with our code can be accessed via the following files:
 - Pre_DEA_commands.ipynb
 - DEA_commands.R
+- DEA_multi_try.ipynb *(this is an attempt to perform a multifactor analysis ona google server. Unfortunately, its result are very hard to interpret)*
 
 [Click on this text to get the scripts and reference files](https://drive.google.com/drive/folders/1NPE-o1iZVF-2sharSFEwvQT3fKwZ4Qb8?usp=sharing).
 Unfortunately, we could not upload the raw sequencing results since they are too big.
