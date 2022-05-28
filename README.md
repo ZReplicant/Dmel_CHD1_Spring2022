@@ -116,8 +116,8 @@ We also characterized genes that may be affected by a CHD1 mutation.
 
 
 ### Links and literature
-- [Flybase.org](http://flybase.org/)
-- [NCBI gene](https://www.ncbi.nlm.nih.gov/gene)
+- [Flybase.org ver. 6.41](http://flybase.org/)
+- [NCBI gene up-to-date ver. (05.2022)](https://www.ncbi.nlm.nih.gov/gene)
 - “Babraham Bioinformatics - FastQC A Quality Control Tool for High Throughput Sequence Data.” Babraham.Ac.Uk, https://www.bioinformatics.babraham.ac.uk/projects/fastqc/. Accessed 13 Jan. 2022
 - Ewels, Philip, et al. “MultiQC: Summarize Analysis Results for Multiple Tools and Samples in a Single Report.” Bioinformatics, vol. 32, no. 19, 2016, pp. 3047–3048, doi:10.1093/bioinformatics/btw354
 - Langmead, Ben, and Steven L. Salzberg. “Fast Gapped-Read Alignment with Bowtie 2.” Nature Methods, vol. 9, no. 4, 2012, pp. 357–359, doi:10.1038/nmeth.1923
