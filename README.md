@@ -46,17 +46,29 @@ Our pipeline is described on a picture below ⬇️
 
 Apart from these tools our pipeline of DEA analysis uses the following R packages:
 BiocManager 1.30.16
+
 data.table 1.14.0
+
 DESeq2 1.32.0
+
 dplyr 1.0.7
+
 GenomicRanges 1.44.0
+
 ggplot2 3.3.5
+
 gplots 3.1.1
+
 openxlsx 4.2.4
+
 stringi 1.7.4
+
 stringr 1.4.0
+
 tidyverse 1.3.1
+
 tximport 1.20.0
+
 
 
 The exact actions along with our code can be accessed via the following files:
